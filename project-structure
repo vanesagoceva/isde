@@ -1,0 +1,16 @@
+isde-image-classification-2024-VanesaGoceva/
+├── app/
+│   ├── main.py
+│   ├── models.py
+│   ├── transformations.py
+│   ├── utils.py
+│   └── templates/
+│       └── index.html
+├── static/
+│   └── styles.css
+├── requirements.txt
+├── README.md
+├── CHANGELOG.md
+├── presentation/
+│   ├── VanesaGoceva_Presentation.pptx
+│   └── demo_video.mp4
