@@ -1,0 +1,6 @@
+git clone https://github.com/VanesaGoceva/isde-image-classification-2024-VanesaGoceva.git
+cd isde-image-classification-2024-VanesaGoceva
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
