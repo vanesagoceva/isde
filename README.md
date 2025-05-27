@@ -1,5 +1,5 @@
 # Image Classification Web App
- # Author: Vanesa Goceva
+ Author: Vanesa Goceva
  
  Course: ISDe Projects 2024
  
