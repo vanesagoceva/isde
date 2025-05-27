@@ -1,1 +1,1 @@
-# isde
+# Image Classification Web App
