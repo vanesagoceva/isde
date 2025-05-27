@@ -1,0 +1,17 @@
+
+<html>
+<body>
+<h2>Select Model and Image</h2>
+<form action="/classifications" method="post">
+  <label>Model:</label>
+  <select name="model_id">
+    {% for model in models %}<option value="{{ model }}">{{ model }}</option>{% endfor %}
+  </select><br>
+  <label>Image:</label>
+  <select name="image_id">
+    {% for image in images %}<option value="{{ image }}">{{ image }}</option>{% endfor %}
+  </select><br>
+  <button type="submit">Classify</button>
+</form>
+</body>
+</html>
